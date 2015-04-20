@@ -1,0 +1,11 @@
+*.egg
+*.egg-info
+*.pyc
+*~
+.idea
+MANIFEST
+build
+dist
+venv
+.DS_Store
+vars.sh
