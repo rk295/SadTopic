@@ -20,7 +20,7 @@ api = twitter.Api(consumer_key=consumer_key,
                   access_token_secret=access_token_secret)
 
 statuses = api.GetUserTimeline(screen_name=twitter_user)
-latest_status = [s.text for s in statuses][0]
+latest_status = statuses[0].text
 
 print "Latest tweet=%s" % latest_status
 
