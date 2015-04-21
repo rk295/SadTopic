@@ -30,6 +30,15 @@ Some explanation:
 * `HC_TOKEN` Your Hipchat API token
 * `TWITTER_USER` Twitter username to check
 
+### Virtual Env
+
+If you choose to use a [virtual env](http://docs.python-guide.org/en/latest/dev/virtualenvs/) to hold the dependancies, then putting the `source` command inside `vars.sh` is as good a place as any, I have this in mine:
+
+```
+source ~/.virtualenvs/sadtopic/bin/activate
+```
+
+
 ## Running
 
 After creating `vars.sh` run with the `run.sh`, possibly from cron:
