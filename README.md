@@ -42,6 +42,7 @@ Topic doesn't match, setting to: How high were you when you green lit this deplo
 ```
 
 Or if the topic doesn't need setting because it is already set to the current tweet:
+
 ```
 % bash run.sh
 Latest tweet=How high were you when you green lit this deployment?
